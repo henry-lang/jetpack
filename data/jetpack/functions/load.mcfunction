@@ -1,6 +1,3 @@
-#scoreboard objectives remove double_jump_shift
-#scoreboard objectives add double_jump_shift custom:sneak_time
-
 scoreboard objectives remove jetpack.sneaking
 scoreboard objectives add jetpack.sneaking custom:sneak_time
 scoreboard objectives remove jetpack.vars

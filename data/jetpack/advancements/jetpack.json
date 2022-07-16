@@ -3,11 +3,11 @@
         "Unlocked": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "double_jump:jetpack"
+                "recipe": "jetpack:jetpack"
             }
         }
     },
     "rewards": {
-        "function": "double_jump:craft_jetpack"
+        "function": "jetpack:craft_jetpack"
     }
 }

@@ -6,4 +6,4 @@ scoreboard players operation damage jetpack.vars *= #-240 jetpack.vars
 scoreboard players operation damage jetpack.vars /= max_damage jetpack.vars
 scoreboard players operation damage jetpack.vars += #-240 jetpack.vars
 scoreboard players operation damage jetpack.vars *= #-1 jetpack.vars
-item modify entity @s armor.chest double_jump:update_durability
+item modify entity @s armor.chest jetpack:update_durability
