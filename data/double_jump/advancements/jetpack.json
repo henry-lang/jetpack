@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "double_jump:jetpack"
+            }
+        }
+    },
+    "rewards": {
+        "function": "double_jump:craft_jetpack"
+    }
+}

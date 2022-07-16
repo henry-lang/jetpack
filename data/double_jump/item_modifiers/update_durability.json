@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:jetpack"
+    },
+    "ops": [
+      {
+        "source": "fuel",
+        "target": "Fuel",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "damage"
+      },
+      "score": "jetpack.vars",
+      "scale": 0.00416666666667 
+    },
+    "add": false
+  }
+]

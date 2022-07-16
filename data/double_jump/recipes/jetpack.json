@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "cic",
+        "rCr",
+        "dDd"
+    ],
+    "key": {
+        "c":{
+            "item": "minecraft:copper_block"
+        },
+        "i": {
+            "item": "minecraft:iron_block"
+        },
+        "r": {
+            "item": "minecraft:redstone_block"
+        },
+        "C": {
+            "item": "iron_chestplate"
+        },
+        "d": {
+            "item": "minecraft:diamond"
+        },
+        "D": {
+            "item": "minecraft:dispenser"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}
