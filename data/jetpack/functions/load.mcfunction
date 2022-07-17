@@ -5,6 +5,6 @@ scoreboard objectives add jetpack.vars dummy
 scoreboard objectives remove jetpack.title
 scoreboard objectives add jetpack.title dummy
 
-scoreboard players remove #-240 jetpack.vars 240
+scoreboard players add #240 jetpack.vars 240
 scoreboard players remove #-1 jetpack.vars 1
 scoreboard players add #100 jetpack.vars 100
